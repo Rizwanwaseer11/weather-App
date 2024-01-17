@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+   
+    margin: auto;
+  background-image: url('https://wallpapers.com/images/hd/perfect-weather-with-gradient-sky-ym0nn79vhoqg34v3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .container{
+    height:70vh;
+    width:70vw;
+    /* border:2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: #39617a52;
+   align-items: center;
+   overflow: hidden;
+  }
+  
+  .searchbox{
+    height:20vh;
+    width:70vw;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+  .searchbox input{
+    height: 1.5rem;
+    width: 13rem;
+    border-radius: 5px;
+    padding: 3px;
+    border: 2px solid skyblue;
+  background-color: transparent;
+  font-size: 1em;
+  }
+  .searchbox input::placeholder{
+    color: black;
+    font-weight: bold;
+  }
+  .searchbox button{
+    height: 2.2rem;
+    width: 3rem;
+    border-radius: 5px;
+    margin-left: 3px;
+    border: 2px solid skyblue;
+    background-color: cadetblue;
+  }
+  .temperature{
+    height:20vh;
+    width:70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container1{
+    height:20vh;
+    width:70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .wind{
+    display:flex;
+    flex-direction:row-reverse;
+    font-size: 1.5em;
+    margin-right: 1px;
+    
+  }
+  .humidity{
+    display: flex;
+    flex-direction:row-reverse;
+    font-size: 1.5em;
+    
+  }
+  .humidity img{
+    width:3rem;
+    height:2rem;
+     mix-blend-mode: color-burn;
+   
+    
+  }
+  
+  
+  
